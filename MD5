@@ -1,7 +1,7 @@
-ec0cd1517ded0c87b967deb6b0a26162 *DESCRIPTION
+a30c1c0da9f74f48eef934e8d4a23a45 *DESCRIPTION
 6eafeae201a7d55660d3e926276b7160 *NAMESPACE
-da5f17432d980533860669bae225f540 *NEWS.md
-e0df52d14dd928c384dccefa7f8be50b *R/object_remove.R
-6e7b9427e6e9341225bef3e6a2b14cfa *README.md
+632a0edd37d23e0f4be94afc83565abe *NEWS.md
+ebc2be550bd68b18dcceeaf9cae98487 *R/object_remove.R
+d2c22ea7dc7c7ac28fd6887f1a832646 *README.md
 5a0656c1bfc5266292551629a99955d3 *inst/rstudio/addins.dcf
 ca5bc21ace2477c4b05ad55c53087eee *man/object_remove.Rd

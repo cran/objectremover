@@ -3,6 +3,9 @@
 
 [![Build
 Status](https://travis-ci.org/alan-y/objectremover.svg?branch=master)](https://travis-ci.org/alan-y/objectremover)
+[![](https://cranlogs.r-pkg.org/badges/objectremover)](https://cran.r-project.org/package=objectremover)
+[![cran
+checks](https://cranchecks.info/badges/summary/objectremover)](https://cran.r-project.org/web/checks/check_results_objectremover.html)
 
 # objectremover
 
@@ -16,8 +19,14 @@ the Global environment. Features include removing objects by
 
 ## Installation
 
-You can install the development version of `objectremover` from Github
-with
+Install `objectremover` with
+
+``` r
+install.packages("objectremover")
+```
+
+Alternatively, you can install the development version of
+`objectremover` with
 
 ``` r
 devtools::install_github("alan-y/objectremover")
@@ -25,6 +34,6 @@ devtools::install_github("alan-y/objectremover")
 
 ## Use
 
-After installing the package, the add-in will be available in Rstudio
+After installing the package, the add-in will be available in RStudio
 from the **Addins** dropdown menu. Select “Remove Objects” (under the
 heading OBJECTREMOVER) from the menu to run.
