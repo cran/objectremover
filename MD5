@@ -1,7 +1,10 @@
-a30c1c0da9f74f48eef934e8d4a23a45 *DESCRIPTION
+2492d1702751f67883fdde1d793b3ccc *DESCRIPTION
+d202a880a08f6512233c344351e77178 *LICENSE
 6eafeae201a7d55660d3e926276b7160 *NAMESPACE
-632a0edd37d23e0f4be94afc83565abe *NEWS.md
-ebc2be550bd68b18dcceeaf9cae98487 *R/object_remove.R
-d2c22ea7dc7c7ac28fd6887f1a832646 *README.md
+76ee5dad11ac1c87ab72b628a278a999 *NEWS.md
+2559b91e66593195ca5a3d1a4edf8d3c *R/object_remove.R
+9d12866a33f0f28d37807828a78ff6f7 *README.md
+1dcb6bb35495d6a2e37c27504684759b *inst/img/objectremover_demo.gif
+b2d1d043a98460360fd4b2c6666ed3f5 *inst/img/objectremover_hex.png
 5a0656c1bfc5266292551629a99955d3 *inst/rstudio/addins.dcf
 ca5bc21ace2477c4b05ad55c53087eee *man/object_remove.Rd

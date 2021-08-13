@@ -1,25 +1,35 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-[![Build
-Status](https://travis-ci.org/alan-y/objectremover.svg?branch=master)](https://travis-ci.org/alan-y/objectremover)
-[![](https://cranlogs.r-pkg.org/badges/objectremover)](https://cran.r-project.org/package=objectremover)
+# objectremover <img src='inst/img/objectremover_hex.png' align="right" height="139" />
+
+<!-- badges: start -->
+
 [![cran
 checks](https://cranchecks.info/badges/summary/objectremover)](https://cran.r-project.org/web/checks/check_results_objectremover.html)
-
-# objectremover
+[![](https://cranlogs.r-pkg.org/badges/objectremover)](https://cran.r-project.org/package=objectremover)
+[![R-CMD-check](https://github.com/alan-y/objectremover/workflows/R-CMD-check/badge.svg)](https://github.com/alan-y/objectremover/actions)
+<!-- badges: end -->
 
 `objectremover` is an RStudio addin to assist with clearing objects from
 the Global environment. Features include removing objects by
 
-  - Starting pattern of object name
-  - Ending pattern of object name
-  - Regular expression
-  - Object type (dataframe, function and other)
+-   Starting pattern of object name
+-   Ending pattern of object name
+-   Regular expression
+-   Object type (dataframe, function and other)
+
+The addin allows the user to quickly tidy up the R workspace which is
+useful, e.g. when you have stored lots of large, temporary objects in
+memory which can often happen during the course of exploratory data
+analysis. `objectremover` displays exactly which objects will be removed
+according to the options the user has specified in real time. This
+feature helps to ensure that you do not remove certain objects by
+mistake.
 
 ## Installation
 
-Install `objectremover` with
+Install `objectremover` from CRAN with
 
 ``` r
 install.packages("objectremover")
@@ -37,3 +47,9 @@ devtools::install_github("alan-y/objectremover")
 After installing the package, the add-in will be available in RStudio
 from the **Addins** dropdown menu. Select “Remove Objects” (under the
 heading OBJECTREMOVER) from the menu to run.
+
+If, for example, you have created some temporary objects named using the
+prefix ‘z’, objectremover can be used to quickly remove all objects
+starting with ‘z’ from the Global environment.
+
+![objectremover demo](inst/img/objectremover_demo.gif)
